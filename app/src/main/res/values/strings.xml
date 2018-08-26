@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Smart House Rent</string>
+    <string name="empty_field_error_msg">This field must not be empty</string>
+    <string-array name="cityAreaName">
+        <item> Adabor </item>
+        <item> Badda </item>
+        <item> Bangshal </item>
+        <item> Biman Bandar </item>
+        <item> Cantonment </item>
+        <item> Chawkbazar </item>
+        <item> Dakshinkhan  </item>
+        <item> Darus Salam </item>
+        <item> Demra </item>
+        <item> Dhanmondi </item>
+        <item> Gendaria </item>
+        <item> Gulshan </item>
+        <item> Hazaribagh </item>
+        <item> Jatrabari </item>
+        <item> Kadamtali </item>
+        <item> Kafrul </item>
+        <item> Kalabagan </item>
+        <item> Kamrangirchar </item>
+        <item> Keraniganj </item>
+        <item> Khilgaon </item>
+        <item> Khilkhet </item>
+        <item> Kotwali </item>
+        <item> Lalbagh </item>
+        <item> Mirpur </item>
+        <item> Mohammadpur </item>
+        <item> Motijheel </item>
+        <item> New Market </item>
+        <item> Pallabi </item>
+        <item> Paltan </item>
+        <item> Ramna </item>
+        <item> Rampura </item>
+        <item> Sabujbagh </item>
+        <item> Savar </item>
+        <item> Shah Ali </item>
+        <item> Shahbagh  </item>
+        <item> Sher-e-Bangla Nagar  </item>
+        <item> Shyampur  </item>
+        <item> Sutrapur  </item>
+        <item> Tejgaon  </item>
+        <item> Uttara  </item>
+        <item> Uttar Khan  </item>
+    </string-array>
+
+    <string name="open"> Open </string>
+    <string name="close"> Close </string>
+
+    <string-array name="category">
+        <item> Bachelor </item>
+        <item> Family </item>
+    </string-array>
+
+    <string-array name="bed_bath_balcony">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+
+    <string-array name="dining_drawing_garages">
+        <item> Yes </item>
+        <item> No </item>
+    </string-array>
+
+</resources>

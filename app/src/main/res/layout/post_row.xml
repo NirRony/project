@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+
+
+    <TextView
+        android:id="@+id/bdt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:text="BDT"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:text="40000"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/location_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bdt_id"
+        android:layout_below="@+id/bdt_id"
+        android:text="Badda"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/beds_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/location_id"
+        android:layout_marginStart="49dp"
+        android:text="Beds"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/bed_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bdt_id"
+        android:layout_below="@+id/location_id"
+        android:text="3"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/bath_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/price_id"
+        android:layout_below="@+id/location_id"
+        android:text="3"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/baths_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/location_id"
+        android:layout_marginStart="124dp"
+        android:text="Baths"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/size_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/location_id"
+        android:layout_marginEnd="152dp"
+        android:text="2150"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/sizes_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/location_id"
+        android:layout_marginEnd="86dp"
+        android:text="Size(sft)"
+        android:textColor="#313131"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>
